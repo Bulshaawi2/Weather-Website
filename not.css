@@ -1,0 +1,121 @@
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to left, #0026ff, rgb(206, 27, 167));
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    height:auto;
+    padding: 30px;
+    color: white;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.heto{
+    color: white;
+    font-weight: bold;
+    font-family: Poppins;
+    text-decoration: underline;
+}
+
+
+#inputed{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+
+#btn{
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+#btn:hover{
+    background-color:fuchsia;
+    color: white;
+    cursor: pointer;
+}
+.disp{
+    color: aquamarine;
+    font-weight: bold;
+    font-family: Poppins;
+    margin: 5px;
+    display: none;
+}
+
+.weather{
+    padding: 10px;
+    display: none;
+}
+
+.humid{
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+}
+.frid{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.wind{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+.shade{
+    max-width: 100%;
+    width: 150px;
+}
+
+.shade:hover{
+    padding: 5px;
+    border: solid 5px ;
+    box-shadow: 5px 5px 10px black;
+}
+.God, .live{
+    margin: 5px;
+    font-size: 50px;
+}
+
+@media(min-width:730px){
+    #inputed{
+        padding: 15px;
+        border-radius: 30px;
+        border: none;
+        outline: none;
+        margin-top: 10px;
+        max-width: 100%;
+        width: 60%;
+    }
+    .humid{
+        display: flex;
+        
+    }
+}
+
+@media(max-width:500px){
+    .card{
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+        max-width: 100%;
+    }
+}
